@@ -36,25 +36,34 @@ body {
 }
 
 .search {
-   
-    max-width: 50%;
-    margin: 20px auto;
+    float: center;
+ 
+    width: 20rem;
+    height:50px;
+    min-width: 10%;
+    max-width: 100%;
+    max-height: 2em;
+    margin: 60px auto;
     padding: 4px;
     border: 1px solid blue;
-    border-radius: 40px;
+    border-radius: 30px;
     top: 150px;
     left: 300px;
     justify-content: right;
+    box-sizing: border-box;
+    overflow: hidden;
     
 }
 
 #srbx {
-    width:86%;
+
+    max-width:100%;
     height: 100%;
     border-style: none;
  
  
 }
+
 
 #logo {
    
@@ -65,10 +74,20 @@ body {
     top: 100px;
 }
 
-#magni {
-    
+#magnimg {
+    float: left;
+    display: inline-block;
     width: 20px;
 }
+
+#micro {
+    float:right;
+    margin-right: auto;
+    display: inline-block;
+
+}
+
+
 .srbtns {
     text-align: center;
     height: 30px;
@@ -76,6 +95,9 @@ body {
   
 }
 footer {
+    
+    bottom 0px;
+    margin: 0px auto;
     text-align: center;
 }
 
