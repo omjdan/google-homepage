@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px 15px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 10px 20px;
+}
+
+#btnimg {
+
+    width: 16px;
+    height: auto;
+}
+
+.svgbtn {
+    border-radius: 100%;
+    border-style: none;
+}
+
+#account {
+
+    width: 25px;
+    height: auto;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.search {
+   
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 4px;
+    border: 1px solid blue;
+    border-radius: 40px;
+    top: 150px;
+    left: 300px;
+    justify-content: right;
+    
+}
+
+#srbx {
+    width:86%;
+    height: 100%;
+    border-style: none;
+ 
+ 
+}
+
+#logo {
+   
+    display: block;
+    width: auto;
+    height: 97px;
+    margin: 0px auto;
+    top: 100px;
+}
+
+#magni {
+    
+    width: 20px;
+}
+.srbtns {
+    text-align: center;
+    height: 30px;
+   
+  
+}
+footer {
+    text-align: center;
+}
+
+a {
+text-decoration: none;    
+}
