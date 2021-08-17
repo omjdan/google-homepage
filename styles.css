@@ -120,6 +120,9 @@ a:hover{
 button:hover {
     box-shadow: 1px 2px 10px gray;
 }
+p {
+    margin-bottom: 100px;
+}
 
 /*forgot the lower part */
 
@@ -163,6 +166,7 @@ display: flex;
 
 footer {
     position: absolute;
+    margin-top: 30px;
     width: 100%;
     bottom: 0;
 }
