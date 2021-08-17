@@ -1,7 +1,9 @@
 body {
     width: 100%;
     height: auto;
-    margin: 0px 15px;
+    margin: 0;
+padding: 0;
+    overflow:hidden;
 }
 
 .navbar {
@@ -9,6 +11,7 @@ body {
     top: 0px;
     right: 0px;
     margin: 10px 20px;
+    
 }
 
 #btnimg {
@@ -95,13 +98,85 @@ body {
    
   
 }
-footer {
+#mainfoot {
     
-    bottom 0px;
     margin: 0px auto;
     text-align: center;
 }
 
 a {
 text-decoration: none;    
+color: black;
+margin-left: 15px
+}
+a:hover{
+    transform: scale(1.1);
+    text-shadow: 1px 1px gray ;
+}
+
+.search:hover {
+    box-shadow: 1px 2px 10px gray;
+}
+button:hover {
+    box-shadow: 1px 2px 10px gray;
+}
+
+/*forgot the lower part */
+
+#mexico {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+    margin-top: 90px;
+    background-color: rgb(236, 233, 233);
+  
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+#mexico a {
+    margin-left:15px;
+}
+
+#nav2 {
+display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: rgb(236, 233, 233);
+    
+}
+#nav2 a {
+    margin-left:15px;
+}
+
+
+
+#btmright {
+    display: flex;
+    flex-wrap:wrap;
+   position: absolute;
+   right:20px;
+   
+    
+
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+@media (min-width 600x){
+    max-width:  100%;
+}
+
+@media (min-width 400px) {
+    #btmright {
+        bottom: 0px;
+    }
 }
